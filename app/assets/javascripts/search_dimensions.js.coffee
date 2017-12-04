@@ -12,8 +12,8 @@ jQuery ->
       $('.progress').show()
       setTimeout(->
         $('.progress-bar').css
-          'width': '80%'
-          'transition': '2s'
+          'width': '99%'
+          'transition': '10s'
       , 100)
 
       $.ajax
@@ -34,7 +34,7 @@ jQuery ->
           $('.progress-bar').animate { 'width': '100%'}, 50
           dimensions.hide()
           error_messages.show()
-          $('.error_messages .panel-body').text(response.message)
+          $('.error_messages .panel-body').text(response.responseJSON.message)
           search_button.prop 'disabled', false
           $('.progress').hide()
           $('.progress-bar').animate { 'width': '0%'}, 50
