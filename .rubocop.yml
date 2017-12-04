@@ -1,0 +1,37 @@
+Documentation:
+  Enabled: false
+
+AbcSize:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+MethodLength:
+  Max: 12
+
+ClassLength:
+  Max: 500
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+AllCops:
+  Include:
+    - 'app/**/*.rb'
+    - 'config/**/*.rb'
+    - 'lib/**/*.rb'
+    - 'lib/**/*.rake'
+  Exclude:
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'doc/**/*'
+    - 'vendor/**/*'
+    - 'tmp/*'
+    - 'config/routes.rb'

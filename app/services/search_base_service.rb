@@ -19,7 +19,7 @@ class SearchBaseService
 
   def dimensions
     search_dimensions_scenario
-  rescue Capybara::ElementNotFound => e
+  rescue Capybara::ElementNotFound
     @status = 404
     'No dimensions found'
   rescue StandardError => e

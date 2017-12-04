@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PhonearenaService < SearchBaseService
-  URL = 'https://www.phonearena.com'.freeze
+  URL = 'https://www.phonearena.com'
 
   private
 
@@ -28,6 +28,6 @@ class PhonearenaService < SearchBaseService
   end
 
   def find_dimensions
-    find('strong', text: 'Dimensions:').first(:xpath,".//..").first('li').text
+    find('strong', text: 'Dimensions:').first(:xpath, './/..').first('li').text
   end
 end
