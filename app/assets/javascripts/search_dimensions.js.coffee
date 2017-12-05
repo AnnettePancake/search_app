@@ -39,4 +39,7 @@ jQuery ->
           $('.progress').hide()
           $('.progress-bar').animate { 'width': '0%'}, 50
 
+    $('#term').on 'keypress', (e) ->
+      $('.search_button').click() if e.keyCode == 13
+
   window.SearchDimensions.init();
