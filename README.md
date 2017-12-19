@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The function of this application is to search phone dimensions on https://www.phonearena.com
 
-Things you may want to cover:
+[See demo](http://searchphonesapp.herokuapp.com/)
 
-* Ruby version
+You can also see screenshot below:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://image.prntscr.com/image/aFYrEO49Qi2NUAWnP3Y13g.png)
